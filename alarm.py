@@ -78,7 +78,7 @@ def set_alarm(time, playlist=None):
 	has_alarm = True
 	sched.start()
 	while has_alarm:
-	    sleep(10)
+	    sleep(100)
 	sched.shutdown()
 
 if __name__ == '__main__':
